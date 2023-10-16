@@ -23,8 +23,8 @@ class ADME:
     # Class constants
 
     # From the BOILED-Egg paper
-    BOILED_EGG_HIA_ELLIPSE = Ellipse((71.051, 2.292), 142.081, 8.740, -1.031325)
-    BOILED_EGG_BBB_ELLIPSE = Ellipse((38.117, 3.177), 82.061, 5.557, -0.171887)
+    BOILED_EGG_HIA_ELLIPSE = Ellipse((71.051, 2.292), 142.081, 8.740, angle=-1.031325)
+    BOILED_EGG_BBB_ELLIPSE = Ellipse((38.117, 3.177), 82.061, 5.557, angle=-0.171887)
 
     def __init__(self, _mol):
         if isinstance(_mol, str):
